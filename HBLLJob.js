@@ -1,5 +1,5 @@
 
-
+// Reverse a string
 function reverseString(string)
 {
     let newString=""
@@ -13,13 +13,26 @@ function reverseString(string)
 console.log("Reverse String Function")
 console.log(reverseString("Megszentségteleníthetetlenségeskedéseitekért"))
 
-
+//Find the highest input
 function highest(int1, int2, int3)
 {
     return Math.max(int1, int2, int3);
 }
 console.log("Highest Input")
 console.log(highest(5,23,3))
+
+//Factorial Solution
+function factorial(fact_number)
+{
+    final_number = 1;
+    for (let index = 1; index <= fact_number; index++)
+    {
+        final_number = (final_number * index);
+    }
+    return final_number
+}
+console.log("Factorial Sequence")
+console.log(factorial(5))
 
 //Fibonnaci Solution 
 function fibonnaci(number)
@@ -37,18 +50,7 @@ console.log("Fibonnaci Sequence")
 console.log(fibonnaci(5))
 
 
-//Factorial Solution
-function factorial(fact_number)
-{
-    final_number = 1;
-    for (let index = 1; index <= fact_number; index++)
-    {
-        final_number = (final_number * index);
-    }
-    return final_number
-}
-console.log("Factorial Sequence")
-console.log(factorial(5))
+
 
 
 
